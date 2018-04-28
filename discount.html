@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<title> JPop Discount Calculator</title>
+<head>
+
+<style>
+body{background-color:lightblue;} h1{font-family: verdana; color: #fff; padding: 30px; font-size: 40px; text-transform: uppercase; letter-spacing: 2px;text-align:center;} h2{color:white;} img{height: 350px; width: 350px;}
+</style>
+</head>
+<body>
+<img src ="yonezu.jpg"></img>
+<img src ="lisa.jpg"></img>
+<img src ="flow.jpg"></img>
+<img src ="tmrev.jpg"></img>
+<img src ="bump.jpg"></img>
+<h1> Figure out how much of a discount you will get for your JPop tickets </h1><br>
+<h2> Please give the information below to get your answer!</h2>
+ 
+ <form action = "discount.php" method = "POST">
+ <h2>Your Age:</h2> <input name = "customer_age" type = "text" /><br>
+ <h2>Are you a veteran? Please type 'yes' or 'no'.</h2><input name = "is_veteran" type = "text"  /><br>
+ <input type = "submit" name = "Submit"/>
+ </form>
+</body>
+</html>
